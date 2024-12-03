@@ -1,5 +1,6 @@
 import Calendar from "../calendar/Calendar";
 import Header from "../header/Header";
+import Navbar from "../nav/Navbar";
 import Weather from "../weather/Weather";
 import "./news.css";
 const News = () => {
@@ -7,10 +8,7 @@ const News = () => {
     <div className="news">
       <Header />
       <div className="news-content">
-        <div className="navbar">
-          <div className="user">User</div>
-          <nav className="nav-categories">Cat</nav>
-        </div>
+        <Navbar />
 
         {/* news */}
         <div className="news-section">
