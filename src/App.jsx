@@ -1,5 +1,13 @@
+import News from "./components/news/News";
+
 const App = () => {
-  return <div className="">App</div>;
+  return (
+    <div className="container">
+      <div className="news-blog-app">
+        <News />
+      </div>
+    </div>
+  );
 };
 
 export default App;
